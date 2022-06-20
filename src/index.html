@@ -25,10 +25,27 @@
         <div class="edina-container">
 
             <!-- Mobile Hamburger -->
-            <div class="edina-mobile-hamburger"></div>
+            <div class="edina-mobile-menu w-full h-auto fixed top-0 left-0 z-50 block lg:hidden">
+                <div class="edina-mobile-menu__inner bg-white pt-[15px] pb-14 shadow-custom-10px">
+                    <div class="container mx-auto pl-[30px] relative">
+                        <div class="mobile-menu w-full h-auto float-left flex justify-between items-center">
+                            <!-- Site Logo -->
+                            <div class="mobile-menu__logo">
+                                <a href="#" class="">
+                                    <img src="../public/assets/img/logo.png" alt="" class="max-w-[100px]">
+                                </a>
+                            </div>
+                            <!-- .Mobile Hamburger -->
+                            <div class="mobile-menu__hamburger">
+                                Hamburger
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Larger Screen -->
-            <div class="edina-sidebar w-80 h-screen fixed top-0 bg-white shadow-custom-3px">
+            <div class="edina-sidebar w-80 h-screen fixed top-0 bg-white shadow-custom-3px hidden lg:block">
                 <div class="edina-sidebar__sidebar-inner">
                     <!-- Sidebar Logo -->
                     <div class="sidebar-inner__logo w-full h-auto border-b-[1px] border-[#cbd3d9] py-[30px] px-10">
@@ -222,12 +239,14 @@
                 </div>
             </div>
 
-            <section class="edina-content-area pl-80">
+
+            <!-- Content Area -->
+            <section class="edina-content-area lg:pl-80">
                 <!-- Hero Section -->
                 <div class="edina-hero-section w-full min-h-screen relative float-left bg-content">
                     <div class="hero-section-content absolute top-[20%] px-5 text-center w-full">
                         <div class="hero-section-content__img flex justify-center items-center mb-[18px]">
-                            <img src="../public/assets/img/hero_1.jpg" alt="" class="w-[200px] h-[200px] rounded-full relative z-50">
+                            <img src="../public/assets/img/hero_1.jpg" alt="" class="w-[200px] h-[200px] rounded-full relative z-30">
                         </div>
                         <div class="hero-section-content__info text-center">
                             <h3 class="name text-[50px] mb-2 font-bold text-text-primary">Davide Santon</h3>
@@ -292,7 +311,11 @@
                 </div>
 
                 <!-- About Section -->
-                <div class="edina-about-section"></div>
+                <div class="edina-about-section">
+                    <div class="container mx-auto px-10">
+
+                    </div>
+                </div>
 
                 <!-- Service Section -->
                 <div class="edina-service-section bg-content w-full h-auto pt-[100px] pb-[50px]">
@@ -306,7 +329,7 @@
                                 <div class="service-list-inner__service-item flex flex-wrap justify-evenly">
 
                                     <!-- Service Item -->
-                                    <div class="service-item grid-cols-1 group max-w-[250px] text-left relative">
+                                    <div class="service-item grid-cols-1 group w-full sm:w-1/2 sm:max-w-1/2 lg:w-[250px] lg:max-w-[250px] text-left relative">
                                         <div class="bg-white group-hover:bg-black pt-[50px] pb-[45px] pl-[50px] pr-10 rounded-md transition-all ease-in-out duration-300">
                                             <div class="service-item__content" >
                                                 <div class="service-icon w-[50px] h-[50px] mb-[25px]">
@@ -325,7 +348,7 @@
                                         <a href="#" class="full-link absolute top-0 bottom-0 left-0 right-0 z-50"></a>
                                     </div>
                                     <!-- Service Item -->
-                                    <div class="service-item grid-cols-1 group max-w-[250px] text-left relative">
+                                    <div class="service-item grid-cols-1 group w-full sm:w-1/2 sm:max-w-1/2 lg:w-[250px] lg:max-w-[250px] text-left relative">
                                         <div class="bg-white group-hover:bg-black pt-[50px] pb-[45px] pl-[50px] pr-10 rounded-md transition-all ease-in-out duration-300">
                                             <div class="service-item__content" >
                                                 <div class="service-icon w-[50px] h-[50px] mb-[25px]">
@@ -347,7 +370,7 @@
                                         <a href="#" class="full-link absolute top-0 bottom-0 left-0 right-0 z-50"></a>
                                     </div>
                                     <!-- Service Item -->
-                                    <div class="service-item grid-cols-1 group max-w-[250px] text-left relative">
+                                    <div class="service-item grid-cols-1 group w-full sm:w-1/2 sm:max-w-1/2 lg:w-[250px] lg:max-w-[250px] text-left relative">
                                         <div class="bg-white group-hover:bg-black pt-[50px] pb-[45px] pl-[50px] pr-10 rounded-md transition-all ease-in-out duration-300">
                                             <div class="service-item__content" >
                                                 <div class="service-icon w-[50px] h-[50px] mb-[25px]">
@@ -369,7 +392,7 @@
                                         <a href="#" class="full-link absolute top-0 bottom-0 left-0 right-0 z-50"></a>
                                     </div>
                                     <!-- Service Item -->
-                                    <div class="service-item grid-cols-1 group max-w-[250px] text-left relative">
+                                    <div class="service-item grid-cols-1 group w-full sm:w-1/2 sm:max-w-1/2 lg:w-[250px] lg:max-w-[250px] text-left relative">
                                         <div class="bg-white group-hover:bg-black pt-[50px] pb-[45px] pl-[50px] pr-10 rounded-md transition-all ease-in-out duration-300">
                                             <div class="service-item__content" >
                                                 <div class="service-icon w-[50px] h-[50px] mb-[25px]">

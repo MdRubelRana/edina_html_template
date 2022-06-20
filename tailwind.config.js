@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // container: {
+      //   center: false,
+      // },
       colors: {
-        'content-bg': "#f9f9fc",
+        'content': "#f9f9fc",
         'text-primary': "#1a1a1a",
         'text-secondary': "#7e7e7e",
       },
@@ -14,7 +17,7 @@ module.exports = {
         'custom-3px': '3px 0 5px #f5f5f5',
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
+        'poppins': ['Poppins'],
       }
     },
   },

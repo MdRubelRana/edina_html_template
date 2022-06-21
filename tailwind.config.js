@@ -1,13 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: [
     "./src/**/*.{html,js}"
   ],
   theme: {
     extend: {
-      // container: {
-      //   center: false,
-      // },
       colors: {
         'content': "#f9f9fc",
         'text-primary': "#1a1a1a",
@@ -19,8 +17,14 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins'],
-      }
+      },
+      fontSize: {
+        'bxl': ['80px', '24px'],
+      },
+      screens: {
+        '3xl': '1600px',
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }

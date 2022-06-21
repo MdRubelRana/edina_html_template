@@ -49,6 +49,54 @@ body::-webkit-scrollbar-thumb {
     transition: all .3s ease;
 }
 
+.edina-service-section .service-item  .svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+.learn-more span:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transform: rotate(45deg);
+    right: 0;
+    top: -2px;
+    border-radius: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+.learn-more span:after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transform: rotate(-45deg);
+    right: 0;
+    bottom: -2px;
+    border-radius: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
 .sidebar-inner__menu-items ul li .list_inner.current a:before {
     width: 100%;
 }

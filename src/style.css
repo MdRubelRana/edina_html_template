@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero-section-content__img:before{
+.hero-section-content__img:before {
     content: "";
     z-index: 20;
     width: 220px;
@@ -11,3 +11,88 @@
     background-color: #e2e2e2;
     border-radius: 100%;
 }
+
+.news__details span a:before {
+    position: relative;
+    content: ".";
+    font-size: 40px;
+    top: -3px;
+    color: #7e7e7e;
+    padding: 0 5px;
+}
+
+/* .owl-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: -107px;
+} */
+
+/* .owl-next {
+    position: absolute;
+    right: 0;
+    background: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    background: green;
+    color: white;
+} */
+
+/* .my_carousel .prev_button span,
+.my_carousel .next_button span {
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #7e7e7e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.my_carousel .prev_button span:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 2px;
+    background-color: #7e7e7e;
+    left: -2px;
+    top: -8px;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.my_carousel .prev_button span:after {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 2px;
+    background-color: #7e7e7e;
+    left: -2px;
+    bottom: -8px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+} */

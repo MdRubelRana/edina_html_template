@@ -151,8 +151,8 @@ a {
     padding: 0 5px;
 }
 
-.gallery_zoom .prev_button span,
-.gallery_zoom .next_button span {
+.slider__controller .prev_button span,
+.slider__controller .next_button span {
     position: absolute;
     width: 35px;
     height: 2px;
@@ -168,7 +168,7 @@ a {
     transition: all .3s ease;
 }
 
-.gallery_zoom .prev_button span:before {
+.slider__controller .prev_button span:before {
     position: absolute;
     content: "";
     width: 22px;
@@ -186,7 +186,7 @@ a {
 }
 
 
-.gallery_zoom .prev_button span:after {
+.slider__controller .prev_button span:after {
     position: absolute;
     content: "";
     width: 22px;
@@ -203,7 +203,7 @@ a {
     transition: all .3s ease;
 }
 
-.gallery_zoom .next_button span:before {
+.slider__controller .next_button span:before {
     position: absolute;
     content: "";
     width: 22px;
@@ -220,7 +220,7 @@ a {
     transition: all .3s ease;
 }
 
-.gallery_zoom .next_button span:after {
+.slider__controller .next_button span:after {
     position: absolute;
     content: "";
     width: 22px;
@@ -235,4 +235,55 @@ a {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+}
+
+
+.testimonial__carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonial__carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.testimonial__carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.testimonial__carousel .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.testimonial__carousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.testimonial__carousel .owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.testimonial__carousel .owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.testimonial__carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.testimonial__carousel .owl-nav button:focus {
+    outline: none;
 }

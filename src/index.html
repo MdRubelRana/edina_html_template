@@ -502,7 +502,7 @@
                         </div>
                         <div class="portfolio-inner pt-20">
                             <div class="portfolio-inner__item">
-                                <div class="gallery_zoom relative">
+                                <div class="slider__controller relative">
                                     <ul class="my_carousel owl-carousel owl-loaded owl-drag relative">
                                         <div class="owl-stage-outer relative overflow-hidden">
                                             <div class="owl-stage">
@@ -770,10 +770,10 @@
                                         <div class="owl-prev">prev</div>
                                         <div class="owl-next">next</div>
                                     </div>
-                                    <div class="owl-dots">
-                                        <div class="owl-dot active">
+                                    <div class="owl-dots disabled">
+                                        <div class="owl-dot disabled">
                                             <span></span>
-                                        </div><div class="owl-dot">
+                                        </div><div class="owl-dot disabled">
                                             <span></span>
                                         </div>
                                         <div class="owl-dot">
@@ -795,7 +795,7 @@
                         </div>
                         <div class="news-inner pt-20">
                             <div class="news-inner__item">
-                                <div class="relative">
+                                <div class="relative slider__controller">
                                     <ul class="my_carousel owl-carousel owl-loaded owl-drag relative">
                                         <div class="owl-stage-outer relative overflow-hidden">
                                             <div class="owl-stage">
@@ -887,8 +887,11 @@
                                             </div>
                                         </div> -->
                                     </ul>
-                                    <!-- <a class="prev_button absolute left-0 top-1/2" href="#"><span></span></a>
-                                    <a class="next_button" href="#"><span></span></a> -->
+                                    <a class="prev_button absolute -left-10 top-1/3 hover:cursor-pointer bg-transparent hover:bg-text-primary w-20 h-20 rounded-full z-[9999] border-[2px] border-text-secondary transition-all duration-300">
+                                        <span></span></a>
+                                    <a class="next_button absolute -right-10 top-1/3 hover:cursor-pointer bg-transparent hover:bg-text-primary w-20 h-20 rounded-full z-[9999] border-[2px] border-text-secondary transition-all duration-300">
+                                        <span></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

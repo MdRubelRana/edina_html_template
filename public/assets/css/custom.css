@@ -119,9 +119,14 @@ body::-webkit-scrollbar-thumb {
     transition: all .3s ease;
 }
 
+@media only screen and (max-width: 1599px){
+    .hero-section-content__img:before {
+        width: 220px;
+        height: 220px;
+    }
+}
+
 .hero-section-content__img:before {
-    width: 320px;
-    height: 320px;
     content: "";
     position: absolute;
     top: -10px;

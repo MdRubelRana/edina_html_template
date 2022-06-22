@@ -1,5 +1,6 @@
 $(document).ready(function () {
-	$(".my_carousel").owlCarousel({
+	var owl = $(".my_carousel");
+	owl.owlCarousel({
 		autoplay: true,
 		lazyLoad: true,
 		loop: true,
@@ -28,7 +29,17 @@ $(document).ready(function () {
 		}
 	});
 
+
+
+	$('.next_button').click(function () {
+		owl.trigger('next.owl.carousel');
+	});
+	$('.prev_button').click(function () {
+		owl.trigger('prev.owl.carousel');
+	});
 });
+
+
 
 // Testimonials Carousel
 $(document).ready(function () {
@@ -58,3 +69,4 @@ $(document).ready(function () {
 	});
 
 });
+
